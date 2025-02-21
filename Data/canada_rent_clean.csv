@@ -1348,7 +1348,7 @@ Calgary,Alberta,51.187031,-114.1131919,Long Term,Main Floor,2500,4,2.5,1800,Unfu
 Calgary,Alberta,51.021581,-113.9996748,Long Term,Apartment,1525,1,1,479,Unfurnished,2025-02-21,Non-Smoking,True,True
 Calgary,Alberta,51.033094,-114.191067,Negotiable,Room For Rent,800,3,2,1413,Furnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,50.9121329,-113.9557594,Long Term,Townhouse,2150,2,1,904,Unfurnished,2025-02-21,Non-Smoking,True,True
-Calgary,Alberta,51.0853237,-114.0901249,Negotiable,Room For Rent,795,1,none,850,Unfurnished,2025-02-21,Non-Smoking,False,False
+Calgary,Alberta,51.0853237,-114.0901249,Negotiable,Room For Rent,795,1,0,850,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.16425,-113.9437538,Long Term,Townhouse,2395,3,2.5,1335,Unfurnished,2025-02-21,Non-Smoking,True,True
 Calgary,Alberta,51.0418015,-114.0555208,Long Term,Apartment,2695,2,2,874,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.1822546,-114.1674258,Long Term,Townhouse,2750,3,2.5,1369,Unfurnished,2025-02-21,Non-Smoking,True,True
@@ -1688,7 +1688,7 @@ Calgary,Alberta,51.112357507134,-114.162165542328,Negotiable,Basement,890,1,1.5,
 Calgary,Alberta,51.0469394,-114.1479582,Long Term,Condo Unit,1395,1,1,800,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,50.8890345,-113.914369,Long Term,Basement,1500,2,1,565,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,50.8642997,-114.0238723,Long Term,Townhouse,2100,2,2.5,950,Unfurnished,2025-02-21,Non-Smoking,False,False
-Calgary,Alberta,51.0923647,-114.0536812,Long Term,Main Floor,2050,3,none,1385,Unfurnished,2025-02-21,Non-Smoking,False,False
+Calgary,Alberta,51.0923647,-114.0536812,Long Term,Main Floor,2050,3,0,1385,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.1238174,-114.0863382,Long Term,Basement,1800,2,1,919,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.0520423,-114.2022616,Negotiable,House,3300,4,2.5,2200,Unfurnished,2025-02-21,Non-Smoking,True,False
 Calgary,Alberta,51.1275997,-114.2086422,Long Term,Condo Unit,2300,2,2,845,Unfurnished,2025-02-21,Non-Smoking,False,False
@@ -1806,7 +1806,7 @@ Calgary,Alberta,51.1643009,-113.9483173,Long Term,Apartment,1600,1,1,600,Unfurni
 Calgary,Alberta,51.1643009,-113.9483173,Long Term,Apartment,1550,1,1,600,Unfurnished,2025-02-21,Non-Smoking,True,False
 Calgary,Alberta,51.157736864431,-114.099904954492,Long Term,Townhouse,2600,3,3,1900,Unfurnished,2025-02-21,Non-Smoking,True,True
 Calgary,Alberta,51.0113793,-114.1134027,Long Term,Main Floor,2600,3,1,1088,Unfurnished,2025-02-21,Non-Smoking,True,True
-Calgary,Alberta,50.8986191,-114.0551933,Long Term,Room For Rent,950,1,none,1851,Furnished,2025-02-21,Non-Smoking,False,False
+Calgary,Alberta,50.8986191,-114.0551933,Long Term,Room For Rent,950,1,0,1851,Furnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,50.856111090214,-113.995834559157,Long Term,Basement,1350,1,1,600,Unfurnished,2025-02-21,Non-Smoking,True,False
 Calgary,Alberta,51.0510088,-114.0794989,Negotiable,Condo Unit,2850,2,2,1100,Furnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.1609981,-114.1563748,Long Term,Basement,1530,2,1,700,Unfurnished,2025-02-21,Non-Smoking,False,False
@@ -4440,7 +4440,7 @@ Calgary,Alberta,51.0211153,-114.1114839,Long Term,Loft,2100,1,1.5,747,Unfurnishe
 Calgary,Alberta,51.0641725,-114.0496704,Short Term,House,29990,3,2,1707,Furnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,50.8678532,-113.954455,Long Term,Townhouse,2200,2,2.5,1490,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.0395893,-114.0646344,Long Term,Condo Unit,2600,2,2,1100,Negotiable,2025-02-21,Non-Smoking,False,False
-Calgary,Alberta,51.0686107,-114.0518744,Long Term,Basement,1250,0,none,500,Unfurnished,2025-02-21,Non-Smoking,False,False
+Calgary,Alberta,51.0686107,-114.0518744,Long Term,Basement,1250,0,0,500,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.0912765,-114.1275222,Long Term,Main Floor,2280,3,1.5,1100,Negotiable,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,50.8792832,-113.9485172,Long Term,Condo Unit,2300,3,2,1150,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.0867628,-114.1295389,Long Term,Condo Unit,2450,2,2,683,Furnished,2025-02-21,Non-Smoking,True,True
@@ -5969,7 +5969,7 @@ Edmonton,Alberta,53.6282249,-113.4658963,Long Term,Duplex,3000,4,3.5,1600,Unfurn
 Edmonton,Alberta,53.5401954,-113.5236031,Long Term,Condo Unit,2000,2,2,947,Unfurnished,2025-02-21,Non-Smoking,False,False
 Edmonton,Alberta,53.534305,-113.5033002,Long Term,Condo Unit,1975,1,1,611,Furnished,2025-02-21,Non-Smoking,False,False
 Edmonton,Alberta,53.5206842,-113.4540837,Long Term,Main Floor,1250,2,1,850,Unfurnished,2025-02-21,Non-Smoking,False,False
-Edmonton,Alberta,53.5156102,-113.515423,Long Term,Room For Rent,750,1,none,1307,Furnished,2025-02-21,Non-Smoking,False,False
+Edmonton,Alberta,53.5156102,-113.515423,Long Term,Room For Rent,750,1,0,1307,Furnished,2025-02-21,Non-Smoking,False,False
 Edmonton,Alberta,53.4116154,-113.5551837,Long Term,Duplex,2100,3,2.5,1651,Unfurnished,2025-02-21,Non-Smoking,False,False
 Edmonton,Alberta,53.550478,-113.5054731,Long Term,Apartment,1539,2,1,780,Unfurnished,2025-02-21,Non-Smoking,True,True
 Edmonton,Alberta,53.550478,-113.5054731,Long Term,Apartment,1209,1,1,598,Unfurnished,2025-02-21,Non-Smoking,True,True
@@ -6913,7 +6913,7 @@ Edmonton,Alberta,53.426540962056,-113.62509450734,Long Term,Basement,1300,1,1,97
 Edmonton,Alberta,53.5543368,-113.5838902,Long Term,Townhouse,2025,2,3,1200,Unfurnished,2025-07-01,Non-Smoking,True,True
 Edmonton,Alberta,53.4525253,-113.5328437,Long Term,Condo Unit,1450,2,1,887,Unfurnished,2025-07-01,Non-Smoking,True,True
 Edmonton,Alberta,53.4052937,-113.4657107,Long Term,Townhouse,2100,3,2.5,1411,Unfurnished,2025-07-01,Non-Smoking,True,True
-Edmonton,Alberta,53.5452415,-113.4858709,Long Term,Room For Rent,625,1,none,200,Furnished,2025-07-01,Non-Smoking,False,False
+Edmonton,Alberta,53.5452415,-113.4858709,Long Term,Room For Rent,625,1,0,200,Furnished,2025-07-01,Non-Smoking,False,False
 Edmonton,Alberta,53.420539,-113.4454954,Long Term,Apartment,1728,2,1,859,Unfurnished,2025-07-01,Non-Smoking,True,True
 Edmonton,Alberta,53.5351477,-113.4996735,Long Term,Condo Unit,2000,2,2,1015,Unfurnished,2025-07-01,Non-Smoking,True,True
 Edmonton,Alberta,53.5274927,-113.6870769,Long Term,Apartment,1728,2,1,860,Unfurnished,2025-07-01,Non-Smoking,True,True
@@ -7563,7 +7563,7 @@ Edmonton,Alberta,53.533651,-113.5908309,Long Term,Apartment,1500,3,1.5,1131,Unfu
 Edmonton,Alberta,53.556137,-113.5364041,Long Term,Apartment,1100,1,1,625,Unfurnished,2025-02-21,Non-Smoking,True,False
 Edmonton,Alberta,53.556137,-113.5364041,Long Term,Apartment,1250,2,1,850,Unfurnished,2025-02-21,Non-Smoking,True,False
 Edmonton,Alberta,53.556137,-113.5364041,Long Term,Apartment,1450,3,1,1000,Unfurnished,2025-02-21,Non-Smoking,True,False
-Edmonton,Alberta,53.556137,-113.5364041,Long Term,Apartment,900,0,none,500,Unfurnished,2025-02-21,Non-Smoking,True,False
+Edmonton,Alberta,53.556137,-113.5364041,Long Term,Apartment,900,0,0,500,Unfurnished,2025-02-21,Non-Smoking,True,False
 Edmonton,Alberta,53.6063909,-113.4773449,Long Term,Apartment,1195,1,1,701,Unfurnished,2025-02-21,Non-Smoking,True,True
 Edmonton,Alberta,53.6063909,-113.4773449,Long Term,Apartment,1295,2,1,866,Unfurnished,2025-02-21,Non-Smoking,True,True
 Edmonton,Alberta,53.6063909,-113.4773449,Long Term,Apartment,1095,0,1,406,Unfurnished,2025-02-21,Non-Smoking,True,True
@@ -10475,7 +10475,7 @@ Calgary,Alberta,51.1643009,-113.9483173,Long Term,Apartment,1550,1,1,600,Unfurni
 Calgary,Alberta,51.1623042,-114.1574838,Long Term,House,3400,4,3.5,2600,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.0510088,-114.0794989,Negotiable,Condo Unit,2850,2,2,1100,Furnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.034826,-114.211499,Short Term,Basement,1550,1,1,900,Furnished,2025-02-21,Non-Smoking,False,False
-Calgary,Alberta,50.8986191,-114.0551933,Long Term,Room For Rent,950,1,none,1851,Furnished,2025-02-21,Non-Smoking,False,False
+Calgary,Alberta,50.8986191,-114.0551933,Long Term,Room For Rent,950,1,0,1851,Furnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.0436825,-114.0650951,Long Term,Apartment,1795,1,1,605,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.0436825,-114.0650951,Long Term,Apartment,1795,1,1,605,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,50.9555392,-114.1149013,Long Term,Townhouse,2150,2,1,1135,Unfurnished,2025-02-21,Non-Smoking,True,True
@@ -13117,7 +13117,7 @@ Calgary,Alberta,50.8678532,-113.954455,Long Term,Townhouse,2200,2,2.5,1490,Unfur
 Calgary,Alberta,51.0912765,-114.1275222,Long Term,Main Floor,2280,3,1.5,1100,Negotiable,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.0395893,-114.0646344,Long Term,Condo Unit,2600,2,2,1100,Negotiable,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,50.8792832,-113.9485172,Long Term,Condo Unit,2300,3,2,1150,Unfurnished,2025-02-21,Non-Smoking,False,False
-Calgary,Alberta,51.0686107,-114.0518744,Long Term,Basement,1250,0,none,500,Unfurnished,2025-02-21,Non-Smoking,False,False
+Calgary,Alberta,51.0686107,-114.0518744,Long Term,Basement,1250,0,0,500,Unfurnished,2025-02-21,Non-Smoking,False,False
 Calgary,Alberta,51.0341857,-114.1909421,Long Term,Townhouse,2700,2,1.5,1328,Unfurnished,2025-02-21,Non-Smoking,True,True
 Calgary,Alberta,51.1510901,-114.0596993,Long Term,House,2550,3,2,1400,Furnished,2025-02-21,Non-Smoking,True,True
 Calgary,Alberta,51.0867628,-114.1295389,Long Term,Condo Unit,2450,2,2,683,Furnished,2025-02-21,Non-Smoking,True,True
@@ -23042,7 +23042,7 @@ Montréal,Quebec,45.496042,-73.5905051,Long Term,Apartment,1725,0,1,560,Unfurnis
 Montréal,Quebec,45.496042,-73.5905051,Long Term,Apartment,3250,2,2,1300,Unfurnished,2025-02-21,Non-Smoking,False,False
 Montréal,Quebec,45.496042,-73.5905051,Long Term,Apartment,1750,1,1,890,Unfurnished,2025-02-21,Non-Smoking,False,False
 Montréal,Quebec,45.6163484,-73.6202618,Long Term,Apartment,1595,2,1,874,Unfurnished,2025-02-21,Non-Smoking,False,False
-Montréal,Quebec,45.5033062,-73.5606114,Negotiable,Condo Unit,1725,1,none,400,Furnished,2025-02-21,Non-Smoking,False,False
+Montréal,Quebec,45.5033062,-73.5606114,Negotiable,Condo Unit,1725,1,0,400,Furnished,2025-02-21,Non-Smoking,False,False
 Montréal,Quebec,45.4937211,-73.5823451,Long Term,Apartment,1345,0,1,400,Unfurnished,2025-02-21,Non-Smoking,True,False
 Montréal,Quebec,45.4937211,-73.5823451,Long Term,Apartment,1595,1,1,600,Unfurnished,2025-02-21,Non-Smoking,True,False
 Montréal,Quebec,45.4937211,-73.5823451,Long Term,Apartment,1645,1,1,600,Unfurnished,2025-02-21,Non-Smoking,True,False
