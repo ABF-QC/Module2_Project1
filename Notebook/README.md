@@ -20,8 +20,6 @@ Data cleaning is crucial for data analysis. The cleaned data can be found here [
 4. Unavailable rentals will be removed
 5. Missing values will be replaced or discarded.
 
-
-Saving the cleaned data to '../Data/canada_rent_clean.csv'
 ---
 ### Step 2 : Data Analysis
 
@@ -44,7 +42,14 @@ The best predictors will be used to find the best suitable regression model for 
 ---
 ### Step 4 : Testing Regression Models
 
-1. 
+Three regression models will be compare. Here are the three different tool to build the different model.
+1. A Linear Regression model
+     - LinearRegression from SciKit Learn module
+2. A Polynomial Regression model 
+     - PolynomialFeatures from SciKit Learn module
+3. An Ordinary Regression model
+     - statsmodels.api
+  
 
 
 
