@@ -24,7 +24,7 @@ Data cleaning is crucial for data analysis. The cleaned data can be found here [
 ### Step 2 : Data Analysis
 
 Data Analysis is necessary to understand 
-   - the dataset,
+   - the dataset
    - the various trends
    - the distribution
    - the range
@@ -100,6 +100,62 @@ $$
 ---
 ### Step 6 : Real-time Validation of the selected Regression Models
 
+
 ---
 ## Results
-Results can be found here [Results](../Notebook/Analysis_w_Results.md)
+More detailed results can be found here [Results](../Notebook/Analysis_w_Results.md)
+
+Our best performing model is a Polynomial of the second degree that is using 30 predictors.
+
+The 30 best predictors were found by using SelectKBest from the Scikit Learn module.
+
+- **Location Features**
+  - `latitude`
+  - `longitude`
+- **Property Features**
+  - `beds`
+  - `baths`
+  - `sq_feet`
+- **Lease Terms**
+  - `lease_term_6 months`
+  - `lease_term_Negotiable`
+  - `lease_term_Short Term`
+- **Property Type**
+  - `type_Basement`
+  - `type_Condo Unit`
+  - `type_House`
+  - `type_Room For Rent`
+- **Smoking Policy**
+  - `smoking_Smoking Allowed`
+- **Province**
+  - `province_British Columbia`
+  - `province_Manitoba`
+  - `province_Newfoundland and Labrador`
+  - `province_Nova Scotia`
+  - `province_Ontario`
+  - `province_Quebec`
+  - `province_Saskatchewan`
+- **City**
+  - `city_Calgary`
+  - `city_Toronto`
+  - `city_Edmonton`
+  - `city_Montréal`
+  - `city_Ottawa`
+  - `city_Winnipeg`
+  - `city_Vancouver`
+  - `city_Victoria`
+  - `city_Regina`
+  - `city_West Vancouver`
+
+| ------------------- | ----------- | ------------------- | -------------------- | ---------------------- | ----------- |
+| Regression Method   | Predictors  | Mean Absolute Error | Mean Square Error    | Root Mean Square Error | R2 scores   |
+| ------------------- | ----------- | ------------------- | -------------------- | ---------------------- | ----------- |
+| Polynomial          | Highest corr (30)| 266                | 138808             | 373                   | 0.74       |
+| ------------------- | ----------- | ------------------- | -------------------- | ---------------------- | ----------- |
+
+    
+
+
+
+
+
