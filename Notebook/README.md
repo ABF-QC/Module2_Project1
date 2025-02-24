@@ -25,11 +25,10 @@ Saving the cleaned data to '../Data/canada_rent_clean.csv'
 ---
 ### Step 2 : Data Analysis
 
-1. The first step is the clean the data
-      * From the original dataset, only the residential housing rental adds will be kept for the analysis.
-      * 
-      * An interactive pie chart will be produced to see the percentage of station and count of station in each category. 
-2. 
+Data Analysis is necessary to understand the dataset, the various trends, the distribution and the range of the various information available in the dataset.
+
+The investigation of the price with all the type of data available in the dataset (province, city, # of bedrooms, etc.) will provide us information of the utmost importance about the most suitable predictors in our regression model.
+
 
 ---
 ### Step 3 : Feature Engeneering
