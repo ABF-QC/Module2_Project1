@@ -47,7 +47,7 @@ Three regression models will be compare. Here are the three different tool to bu
      - LinearRegression from SciKit Learn module
 2. A Polynomial Regression model 
      - PolynomialFeatures from SciKit Learn module
-3. An Ordinary Regression model
+3. An Ordinary Least Sqaure Fit  Regression model
      - statsmodels.api
   
 
