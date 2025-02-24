@@ -23,7 +23,13 @@ Data cleaning is crucial for data analysis. The cleaned data can be found here [
 ---
 ### Step 2 : Data Analysis
 
-Data Analysis is necessary to understand the dataset, the various trends, the distribution and the range of the various information available in the dataset.
+Data Analysis is necessary to understand 
+   - the dataset,
+   - the various trends
+   - the distribution
+   - the range
+     
+of the various information available in the dataset.
 
 The investigation of the price with all the type of data available in the dataset (province, city, # of bedrooms, etc.) will provide us information of the utmost importance about the most suitable predictors in our regression model.
 
@@ -42,7 +48,9 @@ The best predictors will be used to find the best suitable regression model for 
 ---
 ### Step 4 : Testing Regression Models
 
-Three regression models will be compare. Here are the three different tool to build the different model.
+Three regression models will be compare. Here are the three types of regression model we will be trying and their associated source module.
+
+different tools used to build the different model.
 1. A Linear Regression model
      - LinearRegression from SciKit Learn module
 2. A Polynomial Regression model 
@@ -53,9 +61,10 @@ Three regression models will be compare. Here are the three different tool to bu
 ---
 ### Step 5 : Validation of the Regression Models
 A simple cross-validation technique, "The Train - Test Split", was used to evaluate our models performance.
-
+</br>
 Each model was train on 80% of the dataset, while it was tested on the remaining 20% of the dataset.
-
+</br>
+</br>
 The following performance score were calculated for each models and selected features:
 
 - **Mean Absolute Error (MAE):** 
@@ -91,3 +100,6 @@ $$
 ---
 ### Step 6 : Real-time Validation of the selected Regression Models
 
+---
+## Results
+Results can be found here [Results](../Notebook/Analysis_w_Results.md)
