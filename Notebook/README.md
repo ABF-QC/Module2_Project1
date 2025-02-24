@@ -13,7 +13,8 @@ Here is the data source used for the Residential Housing Rental Adds Analysis ac
 ### Step 1: Data Cleaning,
 
 Data cleaning is crucial for data analysis. The cleaned data can be found here [Cleaned Dataset](../Data/canada_rent_clean.csv)
-  1- From the original dataset, only the residential housing rental adds will be kept for the analysis.
+
+1- From the original dataset, only the residential housing rental adds will be kept for the analysis.
 2- Columns with information not needed for the analysis will be discarded
 3- Similar terms in a column will be replaced.
 4- Unavailable rentals will be removed
