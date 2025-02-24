@@ -33,7 +33,13 @@ The investigation of the price with all the type of data available in the datase
 ---
 ### Step 3 : Feature Engeneering
 
-1. 
+Most regression models can only accept numeric values. Therefore, feature engineered is a crucial step to transform categorical columns into numerical columns.
+
+In addition, this is where we will be finding the best predictors of Price for our regression model. Two methods will be use and compared to find the best predictors:
+1. Retaining the highest correlated data in regards of Price
+2. Using SelectKBest from the Scikit Learn module to find the best predictors
+
+The best predictors will be used to find the best suitable regression model for the Residential Housing Rental Price accross Canada. 
 
 ---
 ### Step 4 : Testing Regression Models
