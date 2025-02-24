@@ -150,7 +150,7 @@ The 30 best predictors were found by using SelectKBest from the Scikit Learn mod
 
 | Regression Method   | Predictors  | Mean Absolute Error | Mean Square Error    | Root Mean Square Error | R2 scores   |
 | ------------------- | ----------- | ------------------- | -------------------- | ---------------------- | ----------- |
-| Polynomial          | Highest corr (30)| 266                | 138808             | 373                   | 0.74       |
+| Polynomial          | SelectKBest (30) | 263                | 134968             | 367                   | 0.74        |
 
 
     
