@@ -47,15 +47,46 @@ Three regression models will be compare. Here are the three different tool to bu
      - LinearRegression from SciKit Learn module
 2. A Polynomial Regression model 
      - PolynomialFeatures from SciKit Learn module
-3. An Ordinary Least Sqaure Fit  Regression model
+3. An Ordinary Least Sqaure Fit Regression model with various degree polynomial combinaison for specific features
      - statsmodels.api
-  
-
-
 
 ---
 ### Step 5 : Validation of the Regression Models
+A simple cross-validation technique, "The Train - Test Split", was used to evaluate our models performance.
 
+Each model was train on 80% of the dataset, while it was tested on the remaining 20% of the dataset.
+
+The following performance score were calculated for each models and selected features:
+
+- **Mean Absolute Error (MAE):** 
+
+$$\frac 1n\sum_{i=1}^n|y_i-\hat{y}_i|$$
+
+- **Mean Squared Error (MSE:)** 
+
+$$\frac 1n\sum_{i=1}^n(y_i-\hat{y}_i)^2$$
+
+- **Root Mean Squared Error (RMSE):** 
+
+$$\sqrt{\frac 1n\sum_{i=1}^n(y_i-\hat{y}_i)^2}$$
+
+- **The R-square Score:**
+
+$$
+R^2 = 1 - \frac{\text{RS}}{\text{TS}}
+$$
+
+where RS is the residual sum of squares, defined as:
+
+$$
+\text{RS} = \sum (y_{\text{true}} - y_{\text{pred}})^2
+$$
+
+and TS is the total sum of squares, defined as:
+
+$$
+\text{TS} = \sum (y_{\text{true}} - \bar{y}_{\text{true}})^2
+$$
 
 ---
 ### Step 6 : Real-time Validation of the selected Regression Models
