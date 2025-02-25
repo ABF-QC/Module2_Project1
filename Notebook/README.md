@@ -50,7 +50,7 @@ The best predictors will be used to find the best suitable regression model for 
 
 Three regression models will be compare. Here are the three types of regression model we will be trying and their associated source module.
 
-different tools used to build the different model.
+Different tools used to build the different model.
 1. A Linear Regression model
      - LinearRegression from SciKit Learn module
 2. A Polynomial Regression model 

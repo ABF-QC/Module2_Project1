@@ -87,7 +87,7 @@ Here is the top 30 features looks like with the two differents methods
 
 Three regression models will be compare. Here are the three types of regression model we will be trying and their associated source module.
 
-different tools used to build the different model.
+Different tools used to build the model.
 1. A Linear Regression model
      - LinearRegression from SciKit Learn module
 2. A Polynomial Regression model 
@@ -130,7 +130,7 @@ The errors (Mean Absolute, Mean Square and Root Mean Square) are all lower for t
 ### Model Selected
 ---
 
-The model built from a polynomial regression with an order of 2 with 30 features selecetd with SelectKBest performs better than any other tested models.
+The model built from a polynomial regression with an order of 2 with 30 features selected with SelectKBest performs better than any other tested models.
 
 | Regression Method   | Predictors (qty chosen)  | Mean Absolute Error | Mean Square Error    | Root Mean Square Error | R2 scores   |
 | ------------------- | ----------- | ------------------- | -------------------- | ---------------------- | ----------- |
