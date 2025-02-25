@@ -47,7 +47,7 @@ Two methods were use to select the best predictors.
 
 Here is the top 30 features looks like with the two differents methods
 
-| Produced with hihest Correlation                      | Produced with SelectKBest                      |
+| Produced with highest Correlation                      | Produced with SelectKBest                      |
 |------------------------------|------------------------------|
 | baths                        | latitude                     |
 | beds                         | longitude                    |
@@ -85,6 +85,17 @@ Here is the top 30 features looks like with the two differents methods
 ### Models
 ---
 
+Three regression models will be compare. Here are the three types of regression model we will be trying and their associated source module.
+
+different tools used to build the different model.
+1. A Linear Regression model
+     - LinearRegression from SciKit Learn module
+2. A Polynomial Regression model 
+     - PolynomialFeatures from SciKit Learn module
+3. An Ordinary Least Sqaure Fit Regression model with various degree polynomial combinaison for specific features
+     - statsmodels.api
+   
+
 | Regression Method   | Predictors (qty chosen)  | Mean Absolute Error | Mean Square Error    | Root Mean Square Error | R2 scores   |
 | ------------------- | ----------- | ------------------- | -------------------- | ---------------------- | ----------- |
 | Linear              | SelectKBest (15) | 407                | 309293             | 556                   | 0.41           |
@@ -113,13 +124,22 @@ Here is the top 30 features looks like with the two differents methods
 |                     | Highest corr (30) + sq_ft^2 + sin(latitude) +sin(longitude) + bath² + beds² + smoking²| 299                | 172231             | 415                   | 0.67           |
 
 
-The errors (Mean Absolute, Mean Square and Root Mean Square) are all lower for the polynomial regression model than the linear regression model. A lower error is an indication that the prediction values are closer to the true value.
+The errors (Mean Absolute, Mean Square and Root Mean Square) are all lower for the polynomial regression model than the linear regression model and the ordinary least square model. A lower error is an indication that the prediction values are closer to the true value.
 
 ---
 ### Model Selected
 ---
 
-The model built from a polynomial regression with an order of 2 performs better than the linear regression model, since its predicted values are closer to the true values.
+The model built from a polynomial regression with an order of 2 with 30 features selecetd with SelectKBest performs better than any other tested models.
+
+| Regression Method   | Predictors (qty chosen)  | Mean Absolute Error | Mean Square Error    | Root Mean Square Error | R2 scores   |
+| ------------------- | ----------- | ------------------- | -------------------- | ---------------------- | ----------- |
+| Polynomial (2nd degree)         |SelectKBest (30) | 263                | 134968             | 367                   | 0.74           |
+
+
+---
+### Validation
+---
 
 The best model was tested on real-time 2025 Residential Housing Rental Adds from [rentfaster.ca](https://www.rentfaster.ca/?utm_source=OOH&utm_medium=sign&utm_campaign=ca)
 
@@ -137,9 +157,7 @@ Here are the link to the 5 adds evaluate
 
 [Quebec City](https://www.rentfaster.ca/qc/quebec/rentals/apartment/2-bedrooms/non-smoking/315473?-RSYNC)
 
----
-### Validation
----
+
 
 The model perform relatively well on the sample 2025 dataset. I understand that a larger sample dataset from 2025 would be been preferable to draw sigificant conclusion. Due to some time limitation, I sampled only 5 adds for 2025.
 
