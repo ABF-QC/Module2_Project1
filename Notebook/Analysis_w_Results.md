@@ -27,7 +27,7 @@ However, over the well represented province the gap is not significant and the P
 
 **Price vs Rental Type**
 Room for rent, basement and house are going to be good rpedictors since their mean price are distinguishable from the other types.
-![Graph3](../Graph/DistributionPricebyRentalType.png)
+![Graph3](../Graph/DistributionPricevsRentalType.png)
 
 **Price vs Cities**
 Some cities are important predicting factors.
