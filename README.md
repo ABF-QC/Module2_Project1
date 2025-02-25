@@ -12,7 +12,7 @@ Here is the data source used for the Residential Housing Rental Adds Analysis ac
 ---
 ### Step 1: Data Cleaning,
 
-Data cleaning is crucial for data analysis. The cleaned data can be found here [Cleaned Dataset](../Data/canada_rent_clean.csv)
+Data cleaning is crucial for data analysis. The cleaned data can be found here [Cleaned Dataset](Data/canada_rent_clean.csv)
 
 1. From the original dataset, only the residential housing rental adds will be kept for the analysis.
 2. Columns with information not needed for the analysis will be discarded
@@ -103,7 +103,7 @@ $$
 
 ---
 ## Results
-More detailed results can be found here [Results](../Notebook/Analysis_w_Results.md)
+More detailed results can be found here [Results](Notebook/Analysis_w_Results.md)
 
 Our best performing model is a Polynomial of the second degree that is using 30 predictors.
 
